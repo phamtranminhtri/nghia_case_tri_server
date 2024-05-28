@@ -11,7 +11,7 @@ string randomPos (int r, int c){
 }
 
 int main(){
-	for (int id = 202; id <= 1202 ; id++){
+	for (int id = 1; id <= 200 ; id++){
 	srand(time(NULL));
 	set<string> pos;
 	char direct[4] = {'U', 'L', 'R', 'D'};
